@@ -1,0 +1,81 @@
+body{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Twinkle Star', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.upper-part{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width{
+    width: 40%;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    /* font-family: 'Ubuntu Mono', monospace; */
+    /* font-weight: 800; */
+}
+span{
+    color: orangered;
+}
+.details{
+    padding-left: 10%;
+    padding-top: 2%;
+    /* white-space: nowrap; */
+}
+small{
+    color: red;
+    padding-left: 40px;
+    font-size: smaller;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 5px;
+}
+a:hover{
+    background-color: green;
+    color: black;
+}
+
+.about-text{
+    /* padding: 50px; */
+    text-align: justify;
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+    /* background-color: gray; */
+    /* opacity: .2%; */
+    padding-left: 100px;
+    padding-right: 100px;
+    color: gray;
+}
+
+.upper-bar{
+    width: 100%;
+    background-color: gray;
+    border-radius: 15px;
+    text-align: right;
+    /* padding-right: 20px; */
+}
+
+.bar{
+    width: 70%;
+    background-color: orangered;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+  
